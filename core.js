@@ -5,6 +5,7 @@ jQuery(window).on("load", function(){
     if(jQuery('.proart.exist_p').length) {
         jQuery('.proart.exist_p').css({'display':'inline-block','visibility':'visible','opacity':1});
         jQuery('.proart.exist_p').html('<a href="'+ codev_url +'" target="_blank"><img src="'+ codev_img +'" id="codev-Logo" style="width: 90px;height:auto;" alt="CODEV web development" title="Codev | web development services"/></a>');
+        jQuery('.proart.exist_p a').css({'display':'inline-block','visibility':'visible','opacity':1});
         jQuery('.proart.exist_p img').css({'display':'inline-block','visibility':'visible','opacity':1});
    	}
     else {
