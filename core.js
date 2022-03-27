@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function(){
       
     codev_link.setAttribute("style", "filter:opacity(1)!important;display:inline-block!important;visibility:visible!important;opacity:1!important;");
     
-    if((document.location.host !== 'passioneurs.net') && (document.location.host !== 'god-tur.dk')){
+    if((document.location.host !== 'passioneurs.net') && (document.location.host !== 'passioneurs.co') && (document.location.host !== 'god-tur.dk')){
       codev_logo.setAttribute("style", "filter:opacity(1)!important;display:inline-block!important;visibility:visible!important;opacity:1!important;width:"+codev_width+"px!important;height:auto!important;");
     }
     else{
