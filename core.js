@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function(){
   document.body.appendChild('<div style="display:none;">Website Created by Codev<br/>Fan Page: fb.me/Pro.Art.Designs<br/>Telegram: +201008669950</div>');
   var codev_width = 90, 
       codev_img = 'https://aweegbzfzp.cloudimg.io/v7/job-delivery.com/codev.png',
-      codev_url = 'https://wa.me/201008669950',
+      codev_url = 'https://codev-eg.tk/',/*'https://wa.me/201008669950',*/
       codev_wrapper = document.querySelector('.proart'),
       codev_body = document.querySelector('body');
   
