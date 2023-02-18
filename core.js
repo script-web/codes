@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", function(){
   console.info(document.location.host);
-  document.body.appendChild('<div style="display:none;">Website Created by Codev<br/>Fan Page: fb.me/Pro.Art.Designs<br/>Telegram: +201008669950</div>');
+  document.body.appendChild('<div style="display:none;">Website Created by Codev<br/>WhatsApp/Telegram: +201008669950</div>');
   var codev_width = 90, 
       codev_img = 'https://aweegbzfzp.cloudimg.io/v7/job-delivery.com/codev.png',
-      codev_url = 'https://codev-eg.tk/',/*'https://wa.me/201008669950',*/
+      codev_url = 'https://wa.me/201008669950',/*'https://wa.me/201008669950',*/
       codev_wrapper = document.querySelector('.proart'),
       codev_body = document.querySelector('body');
   
@@ -17,7 +17,10 @@ document.addEventListener("DOMContentLoaded", function(){
       
     codev_link.setAttribute("style", "filter:opacity(1)!important;display:inline-block!important;visibility:visible!important;opacity:1!important;");
     
-    if((document.location.host !== 'passioneurs.net') && (document.location.host !== 'passioneurs.co') && (document.location.host !== 'god-tur.dk')){
+    if((document.location.host !== 'passioneurs.net') 
+       && (document.location.host !== 'passioneurs.co') 
+       && (document.location.host !== 'god-tur.dk')
+       && (document.location.host !== 'gotorz.com')){
       codev_logo.setAttribute("style", "filter:opacity(1)!important;display:inline-block!important;visibility:visible!important;opacity:1!important;width:"+codev_width+"px!important;height:auto!important;");
     }
     else{
