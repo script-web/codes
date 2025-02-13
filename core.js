@@ -15,7 +15,10 @@ document.addEventListener("DOMContentLoaded", function(){
           codev_logo = document.querySelector('.proart_img');
         
       codev_link.setAttribute("style", "filter:opacity(1)!important;display:inline-block!important;visibility:visible!important;opacity:1!important;");
-      document.body.appendChild('<div style="display:none;">Website Created by Codev<br/>WhatsApp/Telegram: +201008669950</div>');
+      let div = document.createElement('div');
+      div.style.display = 'none';
+      div.innerHTML = 'Website Created by Codev<br/>Mobile/WhatsApp/Telegram: +201008669950';
+      document.body.appendChild(div);
       codev_logo.setAttribute("style", "filter:opacity(1)!important;display:inline-block!important;visibility:visible!important;opacity:1!important;width:"+codev_width+"px!important;height:auto!important;");
   }
   else {
