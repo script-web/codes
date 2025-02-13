@@ -15,16 +15,16 @@ document.addEventListener("DOMContentLoaded", function(){
     }
 
     codev_wrapper.style.cssText = "filter:opacity(1)!important;display:inline-block!important;visibility:visible!important;opacity:1!important;";
-    codev_wrapper.innerHTML = '<a class="proart_a" href="${codev_url}" target="_blank">
+    codev_wrapper.innerHTML = `<a class="proart_a" href="${codev_url}" target="_blank">
                                   <img src="${codev_img}" id="codev-Logo" alt="CODEV Website and Mobile Applications Development Services" title="Codev | Website and Mobile Applications Development Services"/>
-                               </a>';
+                               </a>`;
 
     let codev_link = document.querySelector('.proart_a'),
         codev_logo = document.querySelector('#codev-Logo');
 
     codev_link.style.cssText = "filter:opacity(1)!important;display:inline-block!important;visibility:visible!important;opacity:1!important;";
     if (codev_logo) {
-      codev_logo.style.cssText = 'width:${codev_width}px!important;height:auto!important;';
+      codev_logo.style.cssText = `width:${codev_width}px!important;height:auto!important;`;
     }
   }
 
