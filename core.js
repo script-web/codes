@@ -35,11 +35,13 @@ document.addEventListener("DOMContentLoaded", function(){
     codevText2 = 'Mobile/WhatsApp/Telegram: ',
     codevText3 = '+201008669950';
 
-  console.log("%c" + codevText1, style1);
-  console.log("%c" + codevText2 + "%c" + codevText3, style2, style3);
-  
   let div = document.createElement('div');
   div.style.display = 'none';
   div.innerHTML = codevText1 + '<br/>' + codevText2 + codevText3;
   document.body.appendChild(div);
+  
+  setTimeout(() => {
+    console.info("%c" + codevText1, style1);
+    console.info("%c" + codevText2 + "%c" + codevText3, style2, style3);
+  }, 2000);
 });
